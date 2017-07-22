@@ -17,3 +17,31 @@ express server
 budo
 webpack dev server
 browsersync - dedicated IP for sharing work on LAN
+
+share the work
+local machine work as webserver
+localtunnel
+npm install localtunnel -g
+start the app
+lt --port 3000
+lt --port 3000 --subdomain abc
+
+ngrok
+signup
+install ngrok
+intall authtoken
+start the app
+./ngrok http 80
+password protect access
+
+now
+npm install -g now
+create start script
+now
+
+surge
+supports only static files
+npm install -g surge
+surge
+
+using localtunnel here, provide public url---> https://tkfrmysyah.localtunnel.me
