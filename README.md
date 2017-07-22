@@ -9,3 +9,11 @@ nsp check
 it can be executed from npm stript
 
 for issues in global installations npm is having a video to resolve it
+
+Webservers
+http-server inbuilt node server
+live-server support live-reloading
+express server
+budo
+webpack dev server
+browsersync - dedicated IP for sharing work on LAN
