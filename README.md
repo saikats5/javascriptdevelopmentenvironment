@@ -50,3 +50,5 @@ automation
 grunt
 gulp
 npm scripts
+
+npm start -s //to reduce the noise in console 
