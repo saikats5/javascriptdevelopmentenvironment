@@ -66,4 +66,4 @@ Babel Typescript ELM
 Typescript is superset of javascript
 ES5<ES6<Typescript
 
-Babel configured in 2 ways .babelrc/package.json 
+Babel configured in 2 ways .babelrc/package.json  
