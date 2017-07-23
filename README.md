@@ -51,4 +51,19 @@ grunt
 gulp
 npm scripts
 
-npm start -s //to reduce the noise in console 
+npm start -s //to reduce the noise in console
+
+ES1 - 1997
+ES2 - 1998
+ES3 - 1999
+ES5 - 2009
+ES6/ES2015 - 2015
+ES7/ES2016 - 2016
+ES8/ES2017 - 2017
+
+Transpilers
+Babel Typescript ELM
+Typescript is superset of javascript
+ES5<ES6<Typescript
+
+Babel configured in 2 ways .babelrc/package.json 
