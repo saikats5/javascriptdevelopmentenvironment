@@ -4,7 +4,9 @@
   "description": "JavaScript development environment",
   "scripts": {
     "nspcheck": "nsp check",
-    "localtunnel": "lt --port 3000 --subdomain saikat"
+    "localtunnel": "lt --port 3000 --subdomain saikat",
+    "prestart": "node buildScripts/startMessage.js",
+    "start": "node buildScripts/srcServer.js"
   },
   "author": "Saikat Saha",
   "license": "MIT",

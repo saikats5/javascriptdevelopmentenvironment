@@ -45,3 +45,8 @@ npm install -g surge
 surge
 
 using localtunnel here, provide public url---> https://tkfrmysyah.localtunnel.me
+
+automation
+grunt
+gulp
+npm scripts
