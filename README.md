@@ -66,4 +66,18 @@ Babel Typescript ELM
 Typescript is superset of javascript
 ES5<ES6<Typescript
 
-Babel configured in 2 ways .babelrc/package.json  
+Babel configured in 2 ways .babelrc/package.json 
+
+Module Formats(to avoid global variable)
+//past
+IIFE(immediately invoked funtion expression)
+(function(){//code})();
+Asynchronous Module Definition(AMD)
+define(['jq'], function(jq){});
+
+
+CommonJS(CJS)
+var jquery = require('jquery');
+Universal Module Definition(UMD)
+ES6 Modules 
+import jquery from 'jquery';
