@@ -81,3 +81,15 @@ var jquery = require('jquery');
 Universal Module Definition(UMD)
 ES6 Modules 
 import jquery from 'jquery';
+
+Require.js was first popular bundler
+browserify
+webpack
+bundles morethan js
+import css,images,fonts,html etc like js
+built in hot-reloading web server
+
+rollup
+jspm
+
+webpack doesn't generate any physical output files, it create a bundle in memory and serve it to the browser
