@@ -95,3 +95,5 @@ jspm
 webpack doesn't generate any physical output files, it create a bundle in memory and serve it to the browser
 
 bundle.js is not visible physically, visible in netwirks tab it is compiled and transpiled code that Babel and Webpack produced
+
+Soucemap is used for debugging and it downloads the bundled file to read only when developers tool is opened
