@@ -93,3 +93,5 @@ rollup
 jspm
 
 webpack doesn't generate any physical output files, it create a bundle in memory and serve it to the browser
+
+bundle.js is not visible physically, visible in netwirks tab it is compiled and transpiled code that Babel and Webpack produced
