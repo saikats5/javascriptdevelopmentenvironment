@@ -97,3 +97,13 @@ webpack doesn't generate any physical output files, it create a bundle in memory
 bundle.js is not visible physically, visible in netwirks tab it is compiled and transpiled code that Babel and Webpack produced
 
 Soucemap is used for debugging and it downloads the bundled file to read only when developers tool is opened
+
+Linting
+JSLint
+JSHint - improvement of JSLint
+ESLint
+TSLint
+
+ESLint doesn't support watch
+eslint-loader - linting before every webpack build
+eslint-watch - eslint wrapper, not ties to webpack, better warning/error formatting, display clean message, lints test and build scripts
