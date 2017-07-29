@@ -107,3 +107,10 @@ TSLint
 ESLint doesn't support watch
 eslint-loader - linting before every webpack build
 eslint-watch - eslint wrapper, not ties to webpack, better warning/error formatting, display clean message, lints test and build scripts
+babel-lint is to lint stage0-stage 4 features 4 is finsished less risky
+
+0 off
+1 warning
+2 error
+
+npm run lint
