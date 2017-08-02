@@ -114,3 +114,27 @@ babel-lint is to lint stage0-stage 4 features 4 is finsished less risky
 2 error
 
 npm run lint
+
+Testing
+unit integration ui
+
+frameworks
+mocha without assertion library 
+jasmine with assertion library
+tape
+Qunit
+Ava
+Jest with assertion library
+
+assertion(chai, should.js, expect)
+declare what you expect
+expect(2+2).to.equal(4)
+
+helper libraries
+JSDOM(test rely on DOM without running browser)
+cheerio
+
+Test Runner
+Browser(Karma, Testum)
+Headless Browser(PhantomJS) - invisible interface
+In-memory DOM - JSDOM
