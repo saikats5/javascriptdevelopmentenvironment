@@ -138,3 +138,5 @@ Test Runner
 Browser(Karma, Testum)
 Headless Browser(PhantomJS) - invisible interface
 In-memory DOM - JSDOM
+
+JSDOM is asynchronous due to which on changing the text will not fail so need to add done parameter, need to tell mocha it's done

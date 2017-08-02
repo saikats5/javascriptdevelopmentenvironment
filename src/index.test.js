@@ -9,11 +9,12 @@ describe("First Test",()=>{
 });
 
 describe("index.html",()=>{
-    it("Starting text",()=>{
+    it("Starting text",(done)=>{
         const index = fs.readFileSync('./src/index.html', "utf-8");
         jsdom.env(index, function(err, window){
             const div = window.document.getElementsByTagName('div')[0];
             expect(div.innerHTML).to.equal("Testing Public URL");
+            done(); 
             window.close();
         });
     });
