@@ -140,3 +140,18 @@ Headless Browser(PhantomJS) - invisible interface
 In-memory DOM - JSDOM
 
 JSDOM is asynchronous due to which on changing the text will not fail so need to add done parameter, need to tell mocha it's done
+
+CI server(continuous integration)
+Run automated build
+Run your tests
+check code coverage
+automate deployment
+
+Travis-linus based
+Appveyor
+Jenkins
+CircleCI
+Semaphore
+SnapCI
+
+Open travis ci account
