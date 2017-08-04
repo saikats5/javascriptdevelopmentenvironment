@@ -155,3 +155,9 @@ Semaphore
 SnapCI
 
 Open travis ci account
+
+Http Call Approaches
+Node http request
+Browser XMLHttpRequest jquery Framework-based Fetch
+Node & Browser isomorphic-fetch xhr superAgent Axios
+ 
